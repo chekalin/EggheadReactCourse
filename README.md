@@ -1,0 +1,1 @@
+Following course 'Browse the Build Your First React.js App course' from egghead.io
