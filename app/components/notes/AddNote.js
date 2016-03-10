@@ -7,7 +7,7 @@ var AddNote = React.createClass({
     setRef: function (ref) {
         this.note = ref;
     },
-    handleSubmit: function() {
+    handleSubmit: function () {
         var newNote = this.note.value;
         this.props.addNote(newNote);
     },
@@ -17,7 +17,8 @@ var AddNote = React.createClass({
                 <input type="text" className="form-control" placeholder="add new note" ref={this.setRef}/>
                 <span className="input-group-btm">
                     <button className="btn btn-default" type="button" onClick={this.handleSubmit}>
-                        Add Note</button>
+                        Add Note
+                    </button>
                 </span>
             </div>
         );
